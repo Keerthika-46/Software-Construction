@@ -1,0 +1,12 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    echo "Smart Canteen Food Waste Reduction System"
+    echo "Pipeline check completed"
+  displayName: 'Run Project Check'
